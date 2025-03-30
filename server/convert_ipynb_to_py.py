@@ -42,6 +42,6 @@ def convert_all_notebooks_in_folder(source_folder, output_folder):
             convert_notebook(notebook_path, output_folder)
 
 if __name__ == "__main__":
-        source_folder = "."
-        output_folder = "../public"
+        source_folder = "./src"
+        output_folder = "./public"
         convert_all_notebooks_in_folder(source_folder, output_folder)
